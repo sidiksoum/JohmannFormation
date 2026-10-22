@@ -1,0 +1,7 @@
+export * from './student'
+export * from './tuition'
+export * from './teacher'
+export * from './evaluation'
+export * from './reportCard'
+export * from './auth'
+export * from './registration'

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="pwa-grad-192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="bg-grad-192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <filter id="glow-192" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Background with rounded squircles -->
+  <rect width="192" height="192" rx="42" fill="url(#bg-grad-192)" />
+  <rect width="188" height="188" x="2" y="2" rx="40" fill="none" stroke="url(#pwa-grad-192)" stroke-width="2" stroke-opacity="0.4" />
+  
+  <!-- Modern Stylized J & Graduation Sparkle -->
+  <g filter="url(#glow-192)">
+    <path d="M116 52 V112 C116 128 103 140 86 140 C72 140 62 130 60 118" fill="none" stroke="url(#pwa-grad-192)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="116" cy="52" r="10" fill="url(#pwa-grad-192)" />
+    <!-- Accent Star / Diamond -->
+    <path d="M136 78 L142 90 L154 96 L142 102 L136 114 L130 102 L118 96 L130 90 Z" fill="#38bdf8" opacity="0.9" />
+  </g>
+</svg>
